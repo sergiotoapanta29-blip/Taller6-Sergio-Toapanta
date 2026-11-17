@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPUESMAP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">REPUES<span>MAP</span></a>
+            <ul class="menu">
+                <li><a href="#" class="active">Inicio</a></li>
+                <li><a href="#">Mapa📍</a></li>
+                <li><a href="#">MiGarage🛒</a></li>
+            </ul>
+            <a href="#" class="login-btn">Login →</a>
+        </div>
+    </nav>
+    <main class="hero">
+
+        <section class="buscador">
+            <h1>Encuentra el repuesto exacto sin dar vueltas</h1>
+            <p>Localiza al instante piezas originales y alternativas en las tiendas más confiables de Quito. Verifica el inventario en tiempo real y asegura la pieza antes de salir de casa</p>
+
+            <div class="filtros">
+                <select>
+                    <option>Marca</option>
+                </select>
+                <select>
+                    <option>Modelo</option>
+                </select>
+                <select>
+                    <option>Año</option>
+                </select>
+            </div>
+
+            <button class="btn-buscar">Buscar</button>
+        </section>
+
+        <section class="destacado">
+            <div class="carrusel">
+                <button class="flecha">←</button>
+                <img src="src/images/bateria-ecuador.png" alt="Batería Ecuador">
+                <button class="flecha">→</button>
+            </div>
+            <p class="etiqueta">Destacado de la Semana</p>
+        </section>
+    </main>
+
+
+    <!-- INICIO SECCION CATEGORIAS -->
+    <section class="categorias">
+        <div class="categorias__grid">
+            <article class="tarjeta">
+                <img src="/src/images/Sistema_Frenos.png" alt="Disco freno rojo">
+                <h2>Sistema de frenos</h2>
+                <p>Pastillas, discos, liquidos y repuestos esenciales para garantizar
+                    tu seguridad en cada frenada
+                </p>
+                <a href="#" class="btn-ver">Ver</a>
+            </article>
+
+            <article class="tarjeta">
+                <img src="/src/images/Suspencion_y_Direccion.png" alt="Amortiguadores rojos">
+                <h2>Suspencion y Dirección</h2>
+                <p>Amortiguadores, rótulas y terminales para mantener la máxima
+                    estabilidad y confort en la vía
+                </p>
+                <a href="#" class="btn-ver">Ver</a>
+            </article>
+
+            <article class="tarjeta">
+                <img src="/src/images/Motor_y_enfriamiento.png" alt="Motor de automovil">
+                <h2>Motor y Enfriamiento</h2>
+                <p>Radiadores, bandas, bombas y piezas vitales para asegurar el máximo
+                    rendimiento de tu máquina
+                </p>
+                <a href="#" class="btn-ver">Ver</a>
+            </article>
+            
+            <article class="tarjeta">
+                <img src="/src/images/bateria-ecuador.png" alt="Bateria de automovil">
+                <h2>Sistemas Eléctricos</h2>
+                <p>Radiadores, bandas, bombas y piezas vitales para asegurar el máximo
+                    rendimiento de tu máquina
+                </p>
+                <a href="#" class="btn-ver">Ver</a>
+            </article>
+        </div>
+    </section>
+    <!-- FIN SECCION CATEGORIAS -->
+
+    <!-- INICIO SECCION FOOTER -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__logo">
+                REPUES<span>MAP</span>
+                <img src="/src/images/Logo.png" alt="">
+            </div>
+
+            <div class="footer__contact">
+                <h3>Soporte Técnico</h3>
+                <p class="call">09999999999 <i class="fa-brands fa-square-whatsapp"></i></p>
+                <p class="write">soportemap@gmail.com<i class="fa-solid fa-envelope"></i></p>
+                
+                <div class="footer__social">
+                    <h3>Redes Sociales</h3>
+                    <a href="#">Facebook<i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#">Instagram<i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+
+
+            <div class="footer__map">
+                <h3>Mapa</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.79163210818!2d-78.49172208255617!3d-0.20956619999999682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a107e1cd44b%3A0x88a284f66939ed4!2sESCUELA%20POLIT%C3%89CNICA%20NACIONAL!5e0!3m2!1ses-419!2sec!4v1794593631710!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </footer>
+    <!-- FIN SECCION FOOTER -->
+    
+</body>
+</html>
